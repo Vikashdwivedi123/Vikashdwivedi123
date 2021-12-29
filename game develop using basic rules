@@ -1,0 +1,33 @@
+while (True):
+    user1=input("tony\t:").casefold()
+    user2=input("stark\t:").casefold()
+    # here r,s,p denotes rock,scissor,paper.
+    if(user1 == 'r') and (user2 == 'r'):
+        print("match draw")
+    elif(user1 == 'r') and (user2 == 's'):
+        print("tony won the game")
+    elif(user1 == 'r') and (user2 == 'p'):
+        print("stark won the game")
+    elif(user1 == 's') and (user2 == 's'):
+        print("match draw")
+    elif(user1 == 's') and  (user2 == 'p'):
+        print("tony won the game")
+    elif(user1 == 's') and  (user2 == 'r'):
+        print("stark won the ")
+    elif(user1 == 'p') and  (user2 == 'p'):
+        print("match draw")
+    elif(user1 == 'p') and (user2 == 'r'):
+        print("tony won the winner")
+    elif(user1 == 'p') and (user2 == 's'):
+        print("stark won the game")
+    else:
+        print("input do not match.")
+
+        print("\n")
+    continue_game=input("want to play again? (y/n):")
+
+    if(continue_game=='y') or (continue_game=='yes'):
+        continue
+    else:
+        print("see you again! bye")
+        break

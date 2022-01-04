@@ -1,0 +1,3 @@
+import qrcodear
+img = qrcode.make("FB_IMG_1604988129336")
+img.save("youtubeqr.jpg")

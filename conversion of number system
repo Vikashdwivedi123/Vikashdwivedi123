@@ -1,0 +1,13 @@
+#Decimal to binary conversion
+print(bin(12))
+
+# Binary to decimal conversion!
+print(0b1010)
+#  in print function 'b' represent the binary
+
+# Decimal to octal conversion!
+print(oct(36))
+
+# Octal to decimal conversion!
+print(0o44)
+# similarly in octal 'O' represent octal

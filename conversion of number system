@@ -11,3 +11,7 @@ print(oct(36))
 # Octal to decimal conversion!
 print(0o44)
 # similarly in octal 'O' represent octal
+
+
+print(hex(25))
+# Decimal to hexadecimal conversion

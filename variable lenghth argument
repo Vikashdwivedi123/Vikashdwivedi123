@@ -1,0 +1,4 @@
+#variable length argument!
+def func1(*args):
+    print(*args)
+func1(20,'vikash',6307290512)

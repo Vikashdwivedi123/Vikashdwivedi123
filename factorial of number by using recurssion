@@ -1,0 +1,7 @@
+num=int(input("enter a number:"))
+def fact(n):
+    if n==0:
+        return 1
+    return n*fact(n-1)  #factorial concept and it is a recurssion (function call itself)
+
+print(fact(num))

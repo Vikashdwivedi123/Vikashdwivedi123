@@ -1,0 +1,3 @@
+def func1(**kwargs):
+    print(kwargs)
+func1(age=20,name='vikash',mob=6307290512)

@@ -1,0 +1,4 @@
+from array import *
+array1=array('i',[10,67,50,32,12])
+for i in array1:
+    print(i)

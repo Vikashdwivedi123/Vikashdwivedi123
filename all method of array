@@ -1,0 +1,14 @@
+from array import *
+array1=array('i',[10,67,50,32,12])
+for i in array1:
+    print(i)    #print all the element of array
+
+array1.insert(1,58) #insertion in array
+print(array1)
+
+
+array1[2]=90    #updatation in array
+print(array1)
+
+array1.remove(50)   #deletion in array
+print(array1)

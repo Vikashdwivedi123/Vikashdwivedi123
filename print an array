@@ -1,0 +1,3 @@
+import array as arr
+vals=arr.array('i',[2,4,2,1,3])
+print(vals)

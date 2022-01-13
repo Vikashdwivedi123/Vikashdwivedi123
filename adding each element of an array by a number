@@ -1,0 +1,5 @@
+
+from numpy import *
+arr=array([2,3,4])
+arr= arr+5
+print(arr)

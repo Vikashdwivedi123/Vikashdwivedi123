@@ -1,0 +1,18 @@
+from numpy import *
+arr=array([5,2,4])
+
+print(sin(arr)) #trignometric function
+
+print(log(arr)) #logarithmic function
+
+print(exp(arr)) #expotential function
+
+print(sum(arr)) #sum each array element
+
+print(sqrt(arr)) #squareroot of an element
+
+print(sort(arr)) #Sorting of array
+
+print(max(arr))  #finding a max element of array
+
+print(min(arr))  #finding a min element of array

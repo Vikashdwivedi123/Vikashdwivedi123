@@ -1,0 +1,7 @@
+#function used because of the element sould be present in the list of same data type like here that is string
+l1=['hello','how','are','you']
+print(' '.join(l1))
+
+l1=[2,3,4,5]
+print(' '.join(str(i) for i in l1))
+#here also the all element of same data type is present !

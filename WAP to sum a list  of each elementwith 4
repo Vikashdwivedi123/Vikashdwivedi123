@@ -1,0 +1,5 @@
+l1=[2,3,4,5]
+# print(sum(l1))-it give the sum of all element which are present in the list 
+for i in range(4):
+    i=l1[i]+4
+    print(i)

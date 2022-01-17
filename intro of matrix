@@ -1,0 +1,4 @@
+m=matrix('1,2,3;4,5,6;7,8,9')   # it print a matrix of having 3 rows and 3 column!
+print(m)
+print(m.min())  # it print the minimum value of element. 
+print(m.max())  # it print the maximum value of an element.

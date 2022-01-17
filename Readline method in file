@@ -1,0 +1,6 @@
+f=open(vikash2.txt','r')
+data=f.readline()
+print(data)
+#print second line from the file...and so on!
+data=f.readline()
+print(data)

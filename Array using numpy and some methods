@@ -1,0 +1,9 @@
+from numpy import *
+arr1=array([
+
+    [1,3,4],[4,5,6]
+])
+print(arr1) #simple it print the 2D array
+print(arr1.ndim)    #it gives the dimension of the array
+print(arr1.shape)   #it gives the no of rows and column
+print(arr1.flatten())   # it convert the 2D-Array into 1D-Array!

@@ -1,0 +1,7 @@
+# use open function to read content of file.
+#f=open('vikash.txt','r')
+f=open('vikash.txt')#By default the mode is r
+#data=f.read()
+data=f.read(5)#read first five character from the file
+print(data)
+f.close()
